@@ -29,25 +29,45 @@ body {
 }
 
 #login-form {
+  margin: 0px 30px;
   display: flex;
   flex-direction: column;
-  margin: 0px 30px;
 }
 
 #login-form input {
   margin-bottom: 15px;
   padding: 15px 0px;
   border: none;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-  font-size: 18px;
 
+  font-size: 18px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
 }
 
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#login-form input:focus {
-  border-color: var(--yellow);
+#login-form input[type="submit"] {
+  padding: 20px 0px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+  cursor: pointer;
+  font-size: 15px;
+
+  transition: size 0.5s ease-in-out;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: inherit;
 }
