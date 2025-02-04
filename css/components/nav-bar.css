@@ -5,6 +5,7 @@
   position: fixed;
   bottom: 0px;
   box-sizing: border-box;
+  z-index: 1;
 
   background-color: #f9f9fa;
   border-top: 2px solid var(--border_gray);
@@ -17,7 +18,6 @@
 
 .nav__link {
   position: relative;
-  color: #2e363e;
   text-decoration: none;
 }
 
