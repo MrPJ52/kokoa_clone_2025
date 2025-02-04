@@ -62,7 +62,11 @@ body {
   cursor: pointer;
   font-size: 15px;
 
-  transition: size 0.5s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+}
+
+#login-form input[type="submit"]:active {
+  transform: scale(102%);
 }
 
 #login-form a {
