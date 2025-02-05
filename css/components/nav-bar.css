@@ -22,20 +22,9 @@
 }
 
 .nav__notification {
-  height: 25px;
-  width: 25px;
   position: absolute;
   top: -20px;
   left: 15px;
-
-  background-color: tomato;
-  border-radius: 100%;
-  color: white;
-  font-weight: 600;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .nav__notification--small {
