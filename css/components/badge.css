@@ -4,15 +4,28 @@
 
   background-color: tomato;
   border-radius: 100%;
-  color: white;
-  font-weight: 600;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: white;
+  font-weight: 600;
 }
 
 .badge--sm {
   height: 5px;
   width: 5px;
+}
+
+.badge--in-text {
+  height: 14px;
+  width: 14px;
+  margin: 0px 5px;
+
+  background-color: white;
+  border: 2px solid tomato;
+
+  font-size: smaller;
+  color: tomato;
 }

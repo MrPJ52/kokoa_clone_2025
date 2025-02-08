@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -26,19 +26,17 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span>
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-        </span>
-        <span>
-          <i class="fa-regular fa-comment-dots fa-lg"></i>
         </span>
         <span>
           <i class="fa-solid fa-music fa-lg"></i>
         </span>
         <span>
           <i class="fa-solid fa-gear fa-lg"></i>
+          <span class="screen-header__notification badge badge--sm"></span>
         </span>
       </div>
     </header>
@@ -48,32 +46,70 @@
         <div class="user-component__column">
           <img
             src="https://dcimg1.dcinside.com/viewimage.php?id=3fb2dc2af1da3da566bac5a6&no=24b0d769e1d32ca73de980fa11d02831e6e7be0ee814d24c60dd3fb983d3ba2f53e05cf23ed9200a45d6771ac95fbd4210301a552a419a45f9535ab71296ce5acfed95a8f3961fe0"
-            class="user-component__avatar"
+            class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Park</h4>
-            <h6 class="user-component__subtitle">WIP...</h6>
+            <h6 class="user-component__subtitle">
+              +82 10-xxxx-xxxx
+              <span class="badge badge--in-text">!</span>
+            </h6>
           </div>
         </div>
         <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <span class="badge">1</span>
+          <i class="fa-regular fa-message fa-2x"></i>
         </div>
       </div>
 
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://i.ytimg.com/vi/ZQIB819o9vc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7vS_MA33uOYCKzx6bf5GW8ac0PQ"
-            class="user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Melun</h4>
-            <!--<h6 class="user-component__subtitle">WIP...</h6>-->
-          </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Calendar</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">23:10</span>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <span class="icon-row__notification badge badge--sm"></span>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-smile"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-hexagon-nodes"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-comments"></i>
+          <span>Openchat</span>
+        </div>
+        <div class="icon-row__icon"></div>
+        <div class="icon-row__icon"></div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right fa-2x"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image"></div>
+            <span class="more-suggestions__icon-text">kokoa friends</span>
+          </div>
+
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image"></div>
+            <span class="more-suggestions__icon-text">Friends Gem</span>
+          </div>
         </div>
       </div>
     </main>
@@ -87,8 +123,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="fa-solid fa-comment fa-2x"></i>
+            <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -98,6 +133,9 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
+            <span
+              class="badge badge--sm nav__notification nav__notification--sm"
+            ></span>
             <i class="fa-solid fa-ellipsis fa-2x"></i>
           </a>
         </li>
