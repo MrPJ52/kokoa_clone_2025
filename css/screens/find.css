@@ -39,3 +39,65 @@
   color: var(--text_gray);
   text-align: center;
 }
+
+.open-chat {
+  padding: 25px 0px;
+}
+
+.open-chat__title {
+  margin-bottom: 25px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 15px;
+  color: var(--text_gray);
+}
+
+.open-chat__title span {
+  opacity: 0.4;
+}
+
+.open-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-post__title {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.open-post__hashtags {
+  margin-bottom: 7px;
+  color: var(--text_gray);
+  text-transform: uppercase;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  margin-right: 3px;
+}
+
+.open-post__member-count {
+  font-size: 14px;
+  color: var(--text_gray);
+}
+
+.open-post__members .divider {
+  margin: 0px 5px;
+  height: 15px;
+  width: 1px;
+  background-color: var(--text_gray);
+}
+
+.open-post__member-status {
+  color: #ffb0c0;
+}
