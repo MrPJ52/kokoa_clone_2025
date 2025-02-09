@@ -8,7 +8,5 @@
 }
 
 #chat-screen .alt-header {
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
+  background-color: #abc1d1;
 }

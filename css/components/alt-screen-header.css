@@ -2,6 +2,14 @@
   padding: var(--horizental_space);
   margin-bottom: 15px;
 
+  position: sticky;
+  top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color: white;
+  z-index: 1;
+
   display: flex;
   justify-content: space-between;
   align-items: center;

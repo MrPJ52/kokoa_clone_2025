@@ -3,6 +3,11 @@
   padding: var(--horizental_space);
   margin-bottom: 15px;
   box-sizing: border-box;
+
+  position: sticky;
+  top: 30px;
+  width: 100%;
+  box-sizing: border-box;
   z-index: 1;
 
   background-color: white;
