@@ -88,3 +88,78 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 0px;
 }
+
+.reply {
+  width: 100%;
+  padding: 10px 15px 10px 0px;
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.reply__column {
+  display: flex;
+  align-items: center;
+}
+
+.reply .reply__column:first-child {
+  width: 15%;
+  justify-content: center;
+}
+
+.reply .reply__column:last-child {
+  width: 85%;
+  position: relative;
+}
+
+.reply input {
+  padding: 10px;
+  width: 100%;
+
+  border: 1px solid var(--border_gray);
+  border-radius: 20px;
+}
+
+.reply i {
+  color: var(--text_gray);
+}
+
+.reply__column:last-child > i,
+.reply button {
+  position: absolute;
+}
+
+.reply__column:last-child i {
+  top: 20px;
+  right: 45px;
+}
+
+.reply button {
+  height: 30px;
+  width: 30px;
+  top: 4px;
+  right: 4px;
+
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reply button i {
+  color: black;
+}
+
+.reply button:focus,
+.reply button:active {
+  outline: none;
+}
