@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -24,7 +25,6 @@ body {
   color: #2e363e;
 
   padding-top: 30px;
-  height: 300vh;
 }
 
 .welcome-header {
